@@ -1,0 +1,55 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+	<soapenv:Body>
+		<ns:getLoanResponse
+			xmlns:ns="http://service.example.com">
+			<ns:return xsi:type="pp:LoanResponse"
+				xmlns:tt="http://example.com/xsd"
+				xmlns:pp="http://example.com/xsd"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<pp:cashFlowRateAndFee xsi:type="pp:CashFlowRateAndFee">
+					<pp:fannieMaeGuaranteeFee>0</pp:fannieMaeGuaranteeFee>
+				</pp:cashFlowRateAndFee>
+				<pp:loanARMFeature xsi:type="pp:LoanARMFeature">
+				</pp:loanARMFeature>
+				<pp:loanAcquisition xsi:type="pp:LoanAcquisition">
+				</pp:loanAcquisition>
+				<pp:loanAppliedFinancialState_Applied
+					xsi:type="pp:LoanAppliedFinancialStateForPayment">
+				</pp:loanAppliedFinancialState_Applied>
+				<pp:loanAppliedFinancialState_Latest
+					xsi:type="pp:LoanAppliedFinancialState">
+				</pp:loanAppliedFinancialState_Latest>
+				<pp:loanGeneral xsi:type="pp:LoanGeneral">
+					<pp:arm2FixedConversionFeature>NOT CONVERTIBLE</pp:arm2FixedConversionFeature>
+					<pp:interestCode>1</pp:interestCode>
+					<pp:loanOriginalTerm>2</pp:loanOriginalTerm>
+					<pp:loanOriginalUPBAmount>3</pp:loanOriginalUPBAmount>
+					<pp:servicerLoanNumber>LENDER-LOAN-NUM</pp:servicerLoanNumber>
+					<pp:loanSaleTypeCode>4</pp:loanSaleTypeCode>
+				</pp:loanGeneral>
+				<pp:loanFeature1 xsi:type="pp:LoanFeature1">
+				</pp:loanFeature1>
+				<pp:loanFeature2 xsi:type="pp:LoanFeature2">
+				</pp:loanFeature2>
+				<pp:loanFeature3 xsi:type="pp:LoanFeature3">
+				</pp:loanFeature3>
+				<pp:loanFeature4 xsi:type="pp:LoanFeature4">
+				</pp:loanFeature4>
+				<pp:loanFeature5 xsi:type="pp:LoanFeature5">
+				</pp:loanFeature5>
+				<pp:loanFeature6 xsi:type="pp:LoanFeature6">
+				</pp:loanFeature6>
+				<pp:loanFeature7 xsi:type="pp:LoanFeature7">
+				</pp:loanFeature7>
+				<pp:loanFeature8 xsi:type="pp:LoanFeature8">
+				</pp:loanFeature8>
+				<pp:serviceRequestErrorCode>00</pp:serviceRequestErrorCode>
+				<pp:serviceRequestErrorMessage
+					xsi:nil="true" />
+				<pp:serviceRequestFlag>Y</pp:serviceRequestFlag>
+			</ns:return>
+		</ns:getLoanResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
+				
+				
